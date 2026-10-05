@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'MongoDB',
+    'PostgreSQL',
+    'Spring Boot',
+    'Node.js',
+    'LangGraph',
+    'Retrieval Augmented Generation',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,13 +142,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Kevin and I enjoy building applications to solve complex problems.
+              My interest in software development started back in 2019 when I decided to enroll in a
+              college course Introduction to Programming in Java over at{' '}
+              <a href="https://www.uic.edu/">UIC</a>— turns out I really enjoyed programming and the
+              satisfaction of taking an idea, working through the problems, and eventually seeing it
+              come to life.
             </p>
 
-            <p>
+            {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
@@ -150,15 +159,22 @@ const About = () => {
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
               clients.
+            </p> */}
+
+            <p>
+              After getting the fundamentals and core principles of programming down, I started
+              building small personal projects to put what I was learning into practice. Those
+              projects eventually helped me land my first internship at{' '}
+              <a href="https://www.zoro.com/">Zoro</a> as a Software Engineering Intern, which
+              really kickstarted my career in software development. At Zoro, I learned how to write
+              automated test scripts and helped improve and expand my team's automated test suite.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Fast forward to present day, I've been making an impact at Optum/UHG by building much
+              more complex applications that help support our organization's mission — making
+              healthcare more accessible and easier to navigate for both providers and the people
+              they serve.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

@@ -1,5 +1,5 @@
 ---
-title: 'UI Engineer Co-op'
+title: 'Software Engineer I'
 company: 'Optum/UHG'
 location: 'Chicago, IL'
 range: 'Jan 2023 - Present'
