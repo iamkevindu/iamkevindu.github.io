@@ -143,7 +143,7 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Kevin and I enjoy building applications to solve complex problems.
-              My interest in software development started back in 2019 when I decided to enroll in a
+              My interest in software development started back in 2021 when I decided to enroll in a
               college course Introduction to Programming in Java over at{' '}
               <a href="https://www.uic.edu/">UIC</a>— turns out I really enjoyed programming and the
               satisfaction of taking an idea, working through the problems, and eventually seeing it
