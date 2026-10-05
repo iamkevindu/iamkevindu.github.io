@@ -171,10 +171,10 @@ const About = () => {
             </p>
 
             <p>
-              Fast forward to present day, I've been making an impact at Optum/UHG by building much
-              more complex applications that help support our organization's mission — making
-              healthcare more accessible and easier to navigate for both providers and the people
-              they serve.
+              Fast forward to present day, I've been making an impact at{' '}
+              <a href="https://www.optum.ai/">Optum</a> by building much more complex applications
+              that help support our organization's mission; making healthcare more accessible and
+              easier to navigate for both providers and the people they serve.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
