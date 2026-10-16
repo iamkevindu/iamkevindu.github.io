@@ -85,20 +85,12 @@ const hobbies = [
       },
       {
         title: 'Favorite albums',
-        items: [
-          'Drake - ICEMAN',
-          'Drake - $ome $exy $ongs 4 U',
-          'Drake - Her Loss',
-          'Drake - Certified Lover Boy',
-          'Kanye West - The College Dropout',
-          'Kanye West - Late Registration',
-          'Kanye West - Graduation',
-        ],
+        items: ['Drake - Certified Lover Boy', 'Kanye West - Graduation'],
       },
-      {
-        title: 'Current song on repeat',
-        items: ['ILLENIUM, Krewella, SLANDER - Lay It Down'],
-      },
+      // {
+      //   title: 'Current song on repeat',
+      //   items: ['ILLENIUM, Krewella, SLANDER - Lay It Down'],
+      // },
     ],
   },
   {
